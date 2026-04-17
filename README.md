@@ -8,6 +8,8 @@ I build **local-first AI developer tools** — utilities that make LLMs useful i
 |---------|-------------|---------|
 | [ollama-commit](https://github.com/dennisreichenberg/ollama-commit) | AI-generated Git commit messages via local Ollama | `pip install ollama-commit` |
 | [local-rag](https://github.com/dennisreichenberg/local-rag) | Private document Q&A with local LLMs | `pip install local-rag` |
+| [devlog](https://github.com/dennisreichenberg/devlog) | Log daily work, generate standups & PR descriptions via local LLM | `pip install devlog` |
+| [vllm-monitor](https://github.com/dennisreichenberg/vllm-monitor) | Real-time terminal dashboard for vLLM server metrics | `pip install vllm-monitor` |
 | [llm-bench](https://github.com/dennisreichenberg/llm-bench) | CLI benchmark suite for local LLM models | coming soon |
 | [ollamatui](https://github.com/dennisreichenberg/ollamatui) | Terminal UI for Ollama model management | coming soon |
 
