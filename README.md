@@ -12,6 +12,7 @@ I build **local-first AI developer tools** — utilities that make LLMs useful i
 | [vllm-monitor](https://github.com/dennisreichenberg/vllm-monitor) | Real-time terminal dashboard for vLLM server metrics | `pip install vllm-monitor` |
 | [llm-bench](https://github.com/dennisreichenberg/llm-bench) | CLI benchmark suite for local LLM models | coming soon |
 | [ollamatui](https://github.com/dennisreichenberg/ollamatui) | Terminal UI for Ollama model management | coming soon |
+| [model-manager](https://github.com/dennisreichenberg/model-manager) | Unified Ollama model admin — list, pull, remove, tag | `pip install model-manager` |
 
 ## Stack
 
