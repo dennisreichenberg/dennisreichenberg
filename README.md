@@ -1,6 +1,6 @@
 # Hi, I'm Dennis 👋
 
-I build **local-first AI developer tools** — utilities that make LLMs useful in real workflows without cloud lock-in or API costs.
+I build **local-first AI developer tools** -- utilities that make LLMs useful in real workflows without cloud lock-in or API costs.
 
 ## Tools
 
@@ -17,12 +17,15 @@ I build **local-first AI developer tools** — utilities that make LLMs useful i
 | [llm-shell](https://github.com/dennisreichenberg/llm-shell) | AI-powered shell command suggester (local Ollama) | local pip install |
 | [vllm-bench](https://github.com/dennisreichenberg/vllm-bench) | CLI benchmark for vLLM server performance (TTFT, throughput, ITL) | `pip install vllm-bench` |
 | [vllm-config](https://github.com/dennisreichenberg/vllm-config) | Hardware-aware vLLM config optimizer | `pip install vllm-config` |
+| [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI-based local agent loop with tool-use via Ollama | local pip install |
+| [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM answer quality -- exact-match, fuzzy, and LLM-as-judge scoring | local pip install |
+| [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | local pip install |
 
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![CLI](https://img.shields.io/badge/CLI_tools-4EAA25?style=flat&logo=gnubash&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open_Source-❤-red?style=flat)
+![Open Source](https://img.shields.io/badge/Open_Source-red?style=flat)
 
 ## Philosophy
 
