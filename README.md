@@ -11,8 +11,12 @@ I build **local-first AI developer tools** — utilities that make LLMs useful i
 | [devlog](https://github.com/dennisreichenberg/devlog) | Log daily work, generate standups & PR descriptions via local LLM | `pip install devlog` |
 | [vllm-monitor](https://github.com/dennisreichenberg/vllm-monitor) | Real-time terminal dashboard for vLLM server metrics | `pip install vllm-monitor` |
 | [llm-bench](https://github.com/dennisreichenberg/llm-bench) | CLI benchmark suite for local LLM models | coming soon |
-| [ollamatui](https://github.com/dennisreichenberg/ollamatui) | Terminal UI for Ollama model management | coming soon |
-| [model-manager](https://github.com/dennisreichenberg/model-manager) | Unified Ollama model admin — list, pull, remove, tag | `pip install model-manager` |
+| [ollama-tui](https://github.com/dennisreichenberg/ollama-tui) | Keyboard-driven Terminal UI for chatting with local Ollama models | coming soon |
+| [model-manager](https://github.com/dennisreichenberg/model-manager) | Unified Ollama model admin -- list, pull, remove, tag | `pip install model-manager` |
+| [prompt-lab](https://github.com/dennisreichenberg/prompt-lab) | Side-by-side prompt testing across local Ollama models | local pip install |
+| [llm-shell](https://github.com/dennisreichenberg/llm-shell) | AI-powered shell command suggester (local Ollama) | local pip install |
+| [vllm-bench](https://github.com/dennisreichenberg/vllm-bench) | CLI benchmark for vLLM server performance (TTFT, throughput, ITL) | `pip install vllm-bench` |
+| [vllm-config](https://github.com/dennisreichenberg/vllm-config) | Hardware-aware vLLM config optimizer | `pip install vllm-config` |
 
 ## Stack
 
