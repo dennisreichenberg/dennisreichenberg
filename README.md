@@ -2,6 +2,8 @@
 
 I build **local-first AI developer tools** -- utilities that make LLMs useful in real workflows without cloud lock-in or API costs.
 
+## Local-LLM-Tools, Open Source, made in the Ruhrgebiet
+
 ## Ollama Tools
 
 | Project | What it does | Install |
