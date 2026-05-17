@@ -11,7 +11,7 @@ I build **local-first AI developer tools** -- utilities that make LLMs useful in
 | [devlog](https://github.com/dennisreichenberg/devlog) | Log daily work, generate standups & PR descriptions via local LLM | `pip install devlog` |
 | [llm-bench](https://github.com/dennisreichenberg/llm-bench) | CLI benchmark suite for local LLM models | `pip install llm-bench` |
 | [llm-shell](https://github.com/dennisreichenberg/llm-shell) | AI-powered shell command suggester via plain-text descriptions | `pip install llm-shell` |
-| [local-rag](https://github.com/dennisreichenberg/local-rag) | Private document Q&A with local LLMs | `pip install local-rag` |
+| [local-rag](https://github.com/dennisreichenberg/local-rag) | Private document Q&A with local LLMs | `pip install ollama-local-rag` |
 | [model-manager](https://github.com/dennisreichenberg/model-manager) | Unified Ollama model admin -- list, pull, remove, tag | `pip install model-manager` |
 | [prompt-lab](https://github.com/dennisreichenberg/prompt-lab) | Side-by-side prompt testing across local Ollama models | `pip install prompt-lab` |
 
