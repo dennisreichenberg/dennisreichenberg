@@ -34,6 +34,15 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
 | [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM quality -- exact-match, fuzzy, and LLM-as-judge scoring | `pip install model-eval` |
 
+## Self-Hosted Stack
+
+Docker Compose setups for running open-source LLM-ops infrastructure alongside the CLI tools above. Configs, secrets templates and integration notes live in [reichenberg-ruhr](https://github.com/dennisreichenberg/reichenberg-ruhr).
+
+| Component | What it does | Setup |
+|-----------|-------------|-------|
+| [langfuse](https://github.com/dennisreichenberg/reichenberg-ruhr/tree/main/langfuse) | Self-hosted LLM observability -- traces, evals, prompt management and cost tracking across all local-LLM tools | `docker compose up -d` (UI on :3030) |
+| [litellm-proxy](https://github.com/dennisreichenberg/reichenberg-ruhr/tree/main/litellm-proxy) | OpenAI-compatible unified API gateway for Ollama and vLLM, with optional Langfuse callback | `docker compose up -d` (proxy on :4000) |
+
 ## Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
