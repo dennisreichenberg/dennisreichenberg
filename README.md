@@ -33,6 +33,9 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | `pip install ollama-proxy` |
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
 | [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM quality -- exact-match, fuzzy, and LLM-as-judge scoring | `pip install model-eval` |
+| [prompt-vault](https://github.com/dennisreichenberg/weiterentwicklung/tree/main/prompt-vault) | Versioned local prompt library with Jinja2 templating -- share prompts across CLI tools | `pip install prompt-vault` |
+| [llm-gateway](https://github.com/dennisreichenberg/weiterentwicklung/tree/main/llm-gateway) | Local OpenAI-compatible proxy with model-prefix routing and cost tracking across providers | `pip install llm-gateway` |
+| [repo-context](https://github.com/dennisreichenberg/weiterentwicklung/tree/main/repo-context) | Bundle a codebase into a single Markdown file for LLM prompts | `pip install repo-context` |
 
 ## Self-Hosted Stack
 
