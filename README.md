@@ -33,6 +33,7 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | `pip install ollama-proxy` |
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
 | [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM quality -- exact-match, fuzzy, and LLM-as-judge scoring | `pip install model-eval` |
+| [rag-eval](https://github.com/dennisreichenberg/rag-eval) | Evaluate local RAG pipelines -- recall@k, MRR, BLEU/ROUGE and LLM-as-judge | `pip install rag-eval` |
 
 ## Self-Hosted Stack
 
