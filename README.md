@@ -33,18 +33,15 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | `pip install ollama-proxy` |
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
 | [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM quality -- exact-match, fuzzy, and LLM-as-judge scoring | `pip install model-eval` |
-| [prompt-vault](https://github.com/dennisreichenberg/weiterentwicklung/tree/main/prompt-vault) | Versioned local prompt library with Jinja2 templating -- share prompts across CLI tools | `pip install prompt-vault` |
-| [llm-gateway](https://github.com/dennisreichenberg/weiterentwicklung/tree/main/llm-gateway) | Local OpenAI-compatible proxy with model-prefix routing and cost tracking across providers | `pip install llm-gateway` |
-| [repo-context](https://github.com/dennisreichenberg/weiterentwicklung/tree/main/repo-context) | Bundle a codebase into a single Markdown file for LLM prompts | `pip install repo-context` |
 
 ## Self-Hosted Stack
 
-Docker Compose setups for running open-source LLM-ops infrastructure alongside the CLI tools above. Configs, secrets templates and integration notes live in [reichenberg-ruhr](https://github.com/dennisreichenberg/reichenberg-ruhr).
+External open-source tools that Dennis self-hosts alongside his CLI tools. Configs, secrets templates and integration notes live in [reichenberg-ruhr](https://github.com/dennisreichenberg/reichenberg-ruhr). These are third-party OSS projects, not authored by Dennis.
 
-| Component | What it does | Setup |
-|-----------|-------------|-------|
-| [langfuse](https://github.com/dennisreichenberg/reichenberg-ruhr/tree/main/langfuse) | Self-hosted LLM observability -- traces, evals, prompt management and cost tracking across all local-LLM tools | `docker compose up -d` (UI on :3030) |
-| [litellm-proxy](https://github.com/dennisreichenberg/reichenberg-ruhr/tree/main/litellm-proxy) | OpenAI-compatible unified API gateway for Ollama and vLLM, with optional Langfuse callback | `docker compose up -d` (proxy on :4000) |
+| Component | What it does | Dennis's Config |
+|-----------|-------------|-----------------|
+| [Langfuse](https://github.com/langfuse/langfuse) | Self-hosted LLM observability -- traces, evals, prompt management and cost tracking across all local-LLM tools | [config](https://github.com/dennisreichenberg/reichenberg-ruhr/tree/main/langfuse) (UI on :3030) |
+| [LiteLLM Proxy](https://github.com/BerriAI/litellm) | OpenAI-compatible unified API gateway for Ollama and vLLM, with optional Langfuse callback | [config](https://github.com/dennisreichenberg/reichenberg-ruhr/tree/main/litellm-proxy) (proxy on :4000) |
 
 ## Stack
 
