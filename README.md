@@ -30,6 +30,8 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 
 | Project | What it does | Install |
 |---------|-------------|---------|
+| [ai-stack](https://github.com/dennisreichenberg/ai-stack) | Lifecycle supervisor for the local LLM stack -- start, stop, restart and status for Ollama, vLLM, ollama-proxy/llm-gateway, n8n | `pip install git+https://github.com/dennisreichenberg/ai-stack` |
+| [llm-usage](https://github.com/dennisreichenberg/llm-usage) | Historical request and cost accounting -- tracks tokens, latency and cloud costs across Ollama, vLLM and cloud API backends | `pip install git+https://github.com/dennisreichenberg/llm-usage` |
 | [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | `pip install ollama-proxy` |
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
 | [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM quality -- exact-match, fuzzy, and LLM-as-judge scoring | `pip install git+https://github.com/dennisreichenberg/model-eval` |
@@ -67,4 +69,5 @@ All my tools run **100% locally**. No API keys. No usage costs. No data leaving 
 - **[devlog](https://github.com/dennisreichenberg/devlog)** -- AI-powered developer diary: log your work, generate weekly summaries and PR descriptions via local LLMs
 - **[llm-bench](https://github.com/dennisreichenberg/llm-bench)** -- Benchmark local LLMs via Ollama — measure tokens/s, TTFT, and memory usage
 - **llm-gateway** -- Local OpenAI-compatible proxy that routes by model prefix and tracks token cost across providers
+- **[llm-usage](https://github.com/dennisreichenberg/llm-usage)** -- Historical request and cost accounting across all LLM backends (Ollama/vLLM + cloud)
 <!-- profile-repo-updater:pinned:end -->
