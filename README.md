@@ -66,10 +66,10 @@ All my tools run **100% locally**. No API keys. No usage costs. No data leaving 
 ## Pinned Tools
 
 - **[agent-runner](https://github.com/dennisreichenberg/agent-runner)** -- CLI-based local agent loop with tool-use via Ollama
-- **ai-doctor** -- Unified health/status CLI for a local AI stack (Ollama, llm-gateway, vLLM, local-rag)
 - **[ai-stack](https://github.com/dennisreichenberg/ai-stack)** -- Lifecycle supervisor for the local AI stack (Ollama, vLLM, ollama-proxy/llm-gateway, n8n)
 - **[devlog](https://github.com/dennisreichenberg/devlog)** -- AI-powered developer diary: log your work, generate weekly summaries and PR descriptions via local LLMs
-- **[llm-bench](https://github.com/dennisreichenberg/llm-bench)** -- Benchmark local LLMs via Ollama — measure tokens/s, TTFT, and memory usage
-- **llm-gateway** -- Local OpenAI-compatible proxy that routes by model prefix and tracks token cost across providers
+- **[llm-bench](https://github.com/dennisreichenberg/llm-bench)** -- Benchmark local LLMs via Ollama -- measure tokens/s, TTFT, and memory usage
+- **[llm-cache](https://github.com/dennisreichenberg/llm-cache)** -- Semantic response cache in front of OpenAI-compatible LLM gateways (ollama-proxy, llm-gateway, vanilla Ollama)
 - **[llm-usage](https://github.com/dennisreichenberg/llm-usage)** -- Historical request and cost accounting across all LLM backends (Ollama/vLLM + cloud)
+- **[ollama-sync](https://github.com/dennisreichenberg/ollama-sync)** -- Sync Ollama models and tags between multiple hosts (diff/push/pull/mirror via SSH+tar)
 <!-- profile-repo-updater:pinned:end -->
