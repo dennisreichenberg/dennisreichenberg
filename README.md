@@ -10,6 +10,7 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | Project | What it does | Install |
 |---------|-------------|---------|
 | [ollama-commit](https://github.com/dennisreichenberg/ollama-commit) | AI-generated Git commit messages via local Ollama | `pip install ollama-commit` |
+| [ollama-sync](https://github.com/dennisreichenberg/ollama-sync) | Sync Ollama models and tags between multiple hosts (diff/push/pull/mirror via SSH+tar) | `pip install git+https://github.com/dennisreichenberg/ollama-sync` |
 | [ollama-tui](https://github.com/dennisreichenberg/ollama-tui) | Keyboard-driven Terminal UI for chatting with local Ollama models | `pip install git+https://github.com/dennisreichenberg/ollama-tui` |
 | [devlog](https://github.com/dennisreichenberg/devlog) | Log daily work, generate standups & PR descriptions via local LLM | `pip install devlog` |
 | [llm-bench](https://github.com/dennisreichenberg/llm-bench) | CLI benchmark suite for local LLM models | `pip install llm-bench` |
@@ -31,6 +32,7 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | Project | What it does | Install |
 |---------|-------------|---------|
 | [ai-stack](https://github.com/dennisreichenberg/ai-stack) | Lifecycle supervisor for the local LLM stack -- start, stop, restart and status for Ollama, vLLM, ollama-proxy/llm-gateway, n8n | `pip install git+https://github.com/dennisreichenberg/ai-stack` |
+| [llm-cache](https://github.com/dennisreichenberg/llm-cache) | Semantic response cache in front of OpenAI-compatible LLM gateways (ollama-proxy, llm-gateway, vanilla Ollama) | `pip install git+https://github.com/dennisreichenberg/llm-cache` |
 | [llm-usage](https://github.com/dennisreichenberg/llm-usage) | Historical request and cost accounting -- tracks tokens, latency and cloud costs across Ollama, vLLM and cloud API backends | `pip install git+https://github.com/dennisreichenberg/llm-usage` |
 | [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | `pip install ollama-proxy` |
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
