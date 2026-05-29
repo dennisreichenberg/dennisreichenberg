@@ -16,6 +16,7 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 | [llm-shell](https://github.com/dennisreichenberg/llm-shell) | AI-powered shell command suggester via plain-text descriptions | `pip install llm-shell` |
 | [local-rag](https://github.com/dennisreichenberg/local-rag) | Private document Q&A with local LLMs | `pip install ollama-local-rag` |
 | [model-manager](https://github.com/dennisreichenberg/model-manager) | Unified Ollama model admin -- list, pull, remove, tag | `pip install model-manager` |
+| [ollama-sync](https://github.com/dennisreichenberg/ollama-sync) | Sync Ollama models and tags between multiple hosts (diff/push/pull/mirror via SSH+tar) | `pip install git+https://github.com/dennisreichenberg/ollama-sync` |
 | [prompt-lab](https://github.com/dennisreichenberg/prompt-lab) | Side-by-side prompt testing across local Ollama models | `pip install git+https://github.com/dennisreichenberg/prompt-lab` |
 
 ## vLLM Tools
@@ -32,6 +33,7 @@ Fokus: lauffaehige LLM-Workflows ohne Cloud-Abhaengigkeit.
 |---------|-------------|---------|
 | [ai-stack](https://github.com/dennisreichenberg/ai-stack) | Lifecycle supervisor for the local LLM stack -- start, stop, restart and status for Ollama, vLLM, ollama-proxy/llm-gateway, n8n | `pip install git+https://github.com/dennisreichenberg/ai-stack` |
 | [llm-usage](https://github.com/dennisreichenberg/llm-usage) | Historical request and cost accounting -- tracks tokens, latency and cloud costs across Ollama, vLLM and cloud API backends | `pip install git+https://github.com/dennisreichenberg/llm-usage` |
+| [llm-cache](https://github.com/dennisreichenberg/llm-cache) | Semantic response cache in front of OpenAI-compatible LLM gateways (ollama-proxy, llm-gateway, vanilla Ollama) | `pip install git+https://github.com/dennisreichenberg/llm-cache` |
 | [ollama-proxy](https://github.com/dennisreichenberg/ollama-proxy) | Unified OpenAI-compatible API router for Ollama and vLLM backends | `pip install ollama-proxy` |
 | [agent-runner](https://github.com/dennisreichenberg/agent-runner) | CLI agent loop framework with tool use for local LLMs | `pip install agent-runner` |
 | [model-eval](https://github.com/dennisreichenberg/model-eval) | Evaluate local LLM quality -- exact-match, fuzzy, and LLM-as-judge scoring | `pip install git+https://github.com/dennisreichenberg/model-eval` |
